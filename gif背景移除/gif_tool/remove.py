@@ -115,4 +115,5 @@ if __name__ == "__main__":
             print(f"👉 自动选择文件: {target}")
             remove_background(target, f"final_{target}", tolerance_value)
         else:
+
             print("❌ 未找到GIF文件")
